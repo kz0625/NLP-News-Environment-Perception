@@ -1,0 +1,17 @@
+11/11/2024 22:14:56 - INFO - SimCSE -   --------args----------
+11/11/2024 22:14:56 - INFO - SimCSE -   train_file: None
+11/11/2024 22:14:56 - INFO - SimCSE -   PTM_root_path: ./PretrainedLM
+11/11/2024 22:14:56 - INFO - SimCSE -   pretrained: None
+11/11/2024 22:14:56 - INFO - SimCSE -   num_proc: 5
+11/11/2024 22:14:56 - INFO - SimCSE -   max_length: 256
+11/11/2024 22:14:56 - INFO - SimCSE -   batch_size: 32
+11/11/2024 22:14:56 - INFO - SimCSE -   epochs: 2
+11/11/2024 22:14:56 - INFO - SimCSE -   learning_rate: 1e-05
+11/11/2024 22:14:56 - INFO - SimCSE -   tau: 0.05
+11/11/2024 22:14:56 - INFO - SimCSE -   display_interval: 50
+11/11/2024 22:14:56 - INFO - SimCSE -   save_final: False
+11/11/2024 22:14:56 - INFO - SimCSE -   pool_type: cls
+11/11/2024 22:14:56 - INFO - SimCSE -   dropout_rate: 0.3
+11/11/2024 22:14:56 - INFO - SimCSE -   n_gpu: 1
+11/11/2024 22:14:56 - INFO - SimCSE -   --------args----------
+

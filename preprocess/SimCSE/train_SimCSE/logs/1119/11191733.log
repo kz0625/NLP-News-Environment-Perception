@@ -1,0 +1,18 @@
+11/19/2024 17:33:49 - INFO - SimCSE -   --------args----------
+11/19/2024 17:33:49 - INFO - SimCSE -   train_file: ./data/English_train.txt
+11/19/2024 17:33:49 - INFO - SimCSE -   PTM_root_path: ./PretrainedLM
+11/19/2024 17:33:49 - INFO - SimCSE -   pretrained: bert-base-uncased
+11/19/2024 17:33:49 - INFO - SimCSE -   num_proc: 5
+11/19/2024 17:33:49 - INFO - SimCSE -   max_length: 128
+11/19/2024 17:33:49 - INFO - SimCSE -   batch_size: 32
+11/19/2024 17:33:49 - INFO - SimCSE -   epochs: 2
+11/19/2024 17:33:49 - INFO - SimCSE -   learning_rate: 5e-06
+11/19/2024 17:33:49 - INFO - SimCSE -   tau: 0.05
+11/19/2024 17:33:49 - INFO - SimCSE -   display_interval: 50
+11/19/2024 17:33:49 - INFO - SimCSE -   save_final: True
+11/19/2024 17:33:49 - INFO - SimCSE -   pool_type: cls
+11/19/2024 17:33:49 - INFO - SimCSE -   dropout_rate: 0.1
+11/19/2024 17:33:49 - INFO - SimCSE -   n_gpu: 1
+11/19/2024 17:33:49 - INFO - SimCSE -   --------args----------
+
+11/19/2024 17:33:51 - INFO - SimCSE -   The size of dataset: 373156

@@ -1,0 +1,33 @@
+12/20/2024 08:07:46 - INFO - SimCSE -   --------args----------
+12/20/2024 08:07:46 - INFO - SimCSE -   train_file: ./data/English_train.txt
+12/20/2024 08:07:46 - INFO - SimCSE -   PTM_root_path: ./PretrainedLM
+12/20/2024 08:07:46 - INFO - SimCSE -   pretrained: bert-base-uncased
+12/20/2024 08:07:46 - INFO - SimCSE -   num_proc: 5
+12/20/2024 08:07:46 - INFO - SimCSE -   max_length: 128
+12/20/2024 08:07:46 - INFO - SimCSE -   batch_size: 32
+12/20/2024 08:07:46 - INFO - SimCSE -   epochs: 2
+12/20/2024 08:07:46 - INFO - SimCSE -   learning_rate: 5e-06
+12/20/2024 08:07:46 - INFO - SimCSE -   tau: 0.05
+12/20/2024 08:07:46 - INFO - SimCSE -   display_interval: 50
+12/20/2024 08:07:46 - INFO - SimCSE -   save_final: True
+12/20/2024 08:07:46 - INFO - SimCSE -   pool_type: cls
+12/20/2024 08:07:46 - INFO - SimCSE -   dropout_rate: 0.1
+12/20/2024 08:07:46 - INFO - SimCSE -   n_gpu: 1
+12/20/2024 08:07:46 - INFO - SimCSE -   data_fraction: 1.0
+12/20/2024 08:07:46 - INFO - SimCSE -   --------args----------
+
+12/20/2024 08:07:47 - INFO - SimCSE -   The size of dataset: 9411
+12/20/2024 08:14:09 - INFO - SimCSE -   batch_idx: 50, loss:   0.147816
+12/20/2024 08:20:26 - INFO - SimCSE -   batch_idx: 100, loss:   0.056304
+12/20/2024 08:26:41 - INFO - SimCSE -   batch_idx: 150, loss:   0.012323
+12/20/2024 08:32:57 - INFO - SimCSE -   batch_idx: 200, loss:   0.018366
+12/20/2024 08:39:11 - INFO - SimCSE -   batch_idx: 250, loss:   0.039323
+12/20/2024 08:45:20 - INFO - SimCSE -   batch_idx: 300, loss:   0.012555
+12/20/2024 08:51:32 - INFO - SimCSE -   batch_idx: 350, loss:   0.006168
+12/20/2024 08:57:44 - INFO - SimCSE -   batch_idx: 400, loss:   0.004928
+12/20/2024 09:03:57 - INFO - SimCSE -   batch_idx: 450, loss:   0.007839
+12/20/2024 09:10:11 - INFO - SimCSE -   batch_idx: 500, loss:   0.008052
+12/20/2024 09:16:23 - INFO - SimCSE -   batch_idx: 550, loss:   0.003035
+12/20/2024 09:21:14 - INFO - SimCSE -   best loss:   0.003035
+12/20/2024 09:21:15 - INFO - SimCSE -   Save the final model!
+	to./ckpts/English-final

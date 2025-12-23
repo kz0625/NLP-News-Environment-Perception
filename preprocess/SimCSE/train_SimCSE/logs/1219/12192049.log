@@ -1,0 +1,25 @@
+12/19/2024 20:49:27 - INFO - SimCSE -   --------args----------
+12/19/2024 20:49:27 - INFO - SimCSE -   train_file: ./data/English_train.txt
+12/19/2024 20:49:27 - INFO - SimCSE -   PTM_root_path: ./PretrainedLM
+12/19/2024 20:49:27 - INFO - SimCSE -   pretrained: bert-base-uncased
+12/19/2024 20:49:27 - INFO - SimCSE -   num_proc: 5
+12/19/2024 20:49:27 - INFO - SimCSE -   max_length: 128
+12/19/2024 20:49:27 - INFO - SimCSE -   batch_size: 32
+12/19/2024 20:49:27 - INFO - SimCSE -   epochs: 2
+12/19/2024 20:49:27 - INFO - SimCSE -   learning_rate: 5e-06
+12/19/2024 20:49:27 - INFO - SimCSE -   tau: 0.05
+12/19/2024 20:49:27 - INFO - SimCSE -   display_interval: 50
+12/19/2024 20:49:27 - INFO - SimCSE -   save_final: True
+12/19/2024 20:49:27 - INFO - SimCSE -   pool_type: cls
+12/19/2024 20:49:27 - INFO - SimCSE -   dropout_rate: 0.1
+12/19/2024 20:49:27 - INFO - SimCSE -   n_gpu: 1
+12/19/2024 20:49:27 - INFO - SimCSE -   data_fraction: 1.0
+12/19/2024 20:49:27 - INFO - SimCSE -   --------args----------
+
+12/19/2024 20:49:31 - INFO - SimCSE -   The size of dataset: 9411
+12/19/2024 20:58:53 - INFO - SimCSE -   batch_idx: 50, loss:   0.161578
+12/19/2024 21:07:48 - INFO - SimCSE -   batch_idx: 100, loss:   0.047294
+12/19/2024 21:17:40 - INFO - SimCSE -   batch_idx: 150, loss:   0.038995
+12/19/2024 21:26:27 - INFO - SimCSE -   batch_idx: 200, loss:   0.016996
+12/19/2024 21:34:35 - INFO - SimCSE -   batch_idx: 250, loss:   0.046991
+12/19/2024 21:48:50 - INFO - SimCSE -   batch_idx: 300, loss:   0.009619

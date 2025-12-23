@@ -1,0 +1,22 @@
+12/06/2024 14:17:42 - INFO - SimCSE -   --------args----------
+12/06/2024 14:17:42 - INFO - SimCSE -   train_file: ./data/English_train.txt
+12/06/2024 14:17:42 - INFO - SimCSE -   PTM_root_path: ./PretrainedLM
+12/06/2024 14:17:42 - INFO - SimCSE -   pretrained: bert-base-uncased
+12/06/2024 14:17:42 - INFO - SimCSE -   num_proc: 5
+12/06/2024 14:17:42 - INFO - SimCSE -   max_length: 128
+12/06/2024 14:17:42 - INFO - SimCSE -   batch_size: 32
+12/06/2024 14:17:42 - INFO - SimCSE -   epochs: 2
+12/06/2024 14:17:42 - INFO - SimCSE -   learning_rate: 5e-06
+12/06/2024 14:17:42 - INFO - SimCSE -   tau: 0.05
+12/06/2024 14:17:42 - INFO - SimCSE -   display_interval: 50
+12/06/2024 14:17:42 - INFO - SimCSE -   save_final: True
+12/06/2024 14:17:42 - INFO - SimCSE -   pool_type: cls
+12/06/2024 14:17:42 - INFO - SimCSE -   dropout_rate: 0.1
+12/06/2024 14:17:42 - INFO - SimCSE -   n_gpu: 1
+12/06/2024 14:17:42 - INFO - SimCSE -   data_fraction: 1.0
+12/06/2024 14:17:42 - INFO - SimCSE -   --------args----------
+
+12/06/2024 14:17:45 - INFO - SimCSE -   The size of dataset: 22
+12/06/2024 14:17:56 - INFO - SimCSE -   best loss:        inf
+12/06/2024 14:17:57 - INFO - SimCSE -   Save the final model!
+	to./ckpts/English-final
